@@ -373,7 +373,7 @@
             <hr>
             <div class="row">
               <div class="col-md-3 col-xs-12">
-                <img class="img-responsive" src="../assets/static/img/Members/Antonio Páez.jpg">
+                <img class="img-responsive" src="../assets/static/img/Members/Antonio Pez.jpg">
               </div>
               <div class="col-md-9 col-xs-12 m-center">
                 <strong>Prof. Antonio Páez</strong><br>

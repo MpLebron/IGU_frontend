@@ -16,14 +16,5 @@ module.exports = defineConfig({
         jquery: "jquery/src/jquery",
       }
     }
-  },
-  devServer: {
-    proxy: {
-      '/api': {
-        target: 'http://localhost:8087/',
-        pathRewrite: { '^/api': '' },
-        changeOrigin: true
-      }
-    }
   }
 })

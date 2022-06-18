@@ -47,7 +47,7 @@
           <el-input v-model="input" placeholder="Please input your memberID!" style="margin-top:15px" ref="memberIDRef"></el-input>
           <el-button type="primary" plain @click="Submit" style="margin-left: 30px">Submit</el-button>
           <p>
-            Tip: Click <a href="https://github.com/MpLebron/mgsc/blob/master/src/assets/static/doc/MGSC%20Membership%20application%20form.docx?raw=true" style="cursor: pointer">here</a> to apply for membership.
+            Tip: Click <a href="https://gitee.com/MpLebron/mgsc/raw/master/src/assets/static/doc/MGSC%20Membership%20application%20form.docx" style="cursor: pointer">here</a> to apply for membership.
           </p>
           <el-button type="primary" plain @click="logOut">Log out</el-button>
         </div>
@@ -65,6 +65,13 @@ export default {
   data() {
     return {
       input: ''
+    }
+  },
+
+  mounted: function () {
+    if (location.href.indexOf('#reloaded') <= 0) {
+      location.href = location.href + '#reloaded'
+      location.reload()
     }
   },
 
@@ -86,7 +93,7 @@ export default {
         memberId: memberID
       }
 
-      this.$http.post('api/mgsc/member/updateid', qs.stringify(dataMemberID)).then(res => {
+      this.$http.post('http://39.98.210.144/mgsc_api/member/updateid', qs.stringify(dataMemberID)).then(res => {
         let { data: resData } = res
 
         // 如果发送请求并关联成功
@@ -97,12 +104,12 @@ export default {
           })
 
           // 二次发送请求,并进行跳转
-          this.$http.post('api/mgsc/in/Space', resData).then(res => {
+          this.$http.post('http://39.98.210.144/mgsc_api/in/Space', resData).then(res => {
             let { data: resData2 } = res
             if (resData2 === 'userspace') {
-              window.location.href = 'UserSpace'
+              window.location.href = '#/UserSpace'
             } else {
-              window.location.href = 'MemberShip'
+              window.location.href = '#/MemberShip'
             }
           })
         }
@@ -117,9 +124,9 @@ export default {
     },
 
     logOut() {
-      this.$http.post('api/mgsc/logout').then(function () {
+      this.$http.post('http://39.98.210.144/mgsc_api/logout').then(function () {
         sessionStorage.clear()
-        window.location.href = 'Home'
+        window.location.href = '#/Home'
       })
     },
 

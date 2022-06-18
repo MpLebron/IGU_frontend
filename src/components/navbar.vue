@@ -109,11 +109,12 @@ export default {
 }
 
 .el-menu {
-  padding-left: 330px;
+  display: flex;
+  justify-content: center;
 }
 
 .el-menu-item {
-  padding: 0 20px;
+  padding: 0 25px;
 }
 
 a {

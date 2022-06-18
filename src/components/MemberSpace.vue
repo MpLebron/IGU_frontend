@@ -86,6 +86,14 @@ export default {
       memberInfo: ''
     }
   },
+
+  mounted: function () {
+    if (location.href.indexOf('#reloaded') <= 0) {
+      location.href = location.href + '#reloaded'
+      location.reload()
+    }
+  },
+
   methods: {
     Renew() {
       const memberId = this.memberInfo.memberId
@@ -94,7 +102,7 @@ export default {
       const memberIdData = {
         memberId: memberId
       }
-      this.$http.post('api/mgsc/member/renew', qs.stringify(memberIdData)).then(res => {
+      this.$http.post('http://39.98.210.144/mgsc_api/member/renew', qs.stringify(memberIdData)).then(res => {
         const { data: resData } = res
         this.$alert(resData, 'Message', {
           confirmButtonText: 'OK',
@@ -104,9 +112,9 @@ export default {
     },
 
     logOut() {
-      this.$http.post('api/mgsc/logout').then(function () {
+      this.$http.post('http://39.98.210.144/mgsc_api/logout').then(function () {
         sessionStorage.clear()
-        window.location.href = 'Home'
+        window.location.href = '#/Home'
       })
     },
 
