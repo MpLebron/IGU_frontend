@@ -451,8 +451,8 @@
               <img class="img-responsive" src="../assets/static/img/Members/mazaiyang.jpg">
             </div>
             <div class="col-md-9 col-xs-12">
-              <strong> Zaiyang Ma </strong><br>
-              <p>Ph.D. Candidate<br>
+              <strong> Dr. Zaiyang Ma </strong><br>
+              <p>Ph.D.<br>
                 Nanjing Normal University, China <br>
                 Email: <a href="mailto:mzaiyang@outlook.com" style="color: orange;"> mzaiyang@outlook.com </a>
               </p>

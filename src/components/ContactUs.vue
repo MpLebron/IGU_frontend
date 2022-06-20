@@ -31,7 +31,7 @@
         </li>
 
         <li>
-          <strong>Zaiyang Ma</strong>
+          <strong>Dr. Zaiyang Ma</strong>
           <p>Office Assistant
           </p>
           <strong>Address:</strong>

@@ -47,7 +47,7 @@
           <el-input v-model="input" placeholder="Please input your memberID!" style="margin-top:15px" ref="memberIDRef"></el-input>
           <el-button type="primary" plain @click="Submit" style="margin-left: 30px">Submit</el-button>
           <p>
-            Tip: Click <a href="https://gitee.com/MpLebron/mgsc/raw/master/src/assets/static/doc/MGSC%20Membership%20application%20form.docx" style="cursor: pointer">here</a> to apply for membership.
+            Tip: Click <a href="http://221.226.60.2:8082/data/bba08c9c-4cba-4a34-bf6f-c1819f9ba91a" style="cursor: pointer">here</a> to apply for membership.
           </p>
           <el-button type="primary" plain @click="logOut">Log out</el-button>
         </div>
