@@ -373,7 +373,7 @@
             <hr>
             <div class="row">
               <div class="col-md-3 col-xs-12">
-                <img class="img-responsive" src="../assets/static/img/Members/Antonio Páez.jpg">
+                <img class="img-responsive" src="../assets/static/img/Members/Antonio Pez.jpg">
               </div>
               <div class="col-md-9 col-xs-12 m-center">
                 <strong>Prof. Antonio Páez</strong><br>
@@ -451,8 +451,8 @@
               <img class="img-responsive" src="../assets/static/img/Members/mazaiyang.jpg">
             </div>
             <div class="col-md-9 col-xs-12">
-              <strong> Zaiyang Ma </strong><br>
-              <p>Ph.D. Candidate<br>
+              <strong> Dr. Zaiyang Ma </strong><br>
+              <p>Ph.D.<br>
                 Nanjing Normal University, China <br>
                 Email: <a href="mailto:mzaiyang@outlook.com" style="color: orange;"> mzaiyang@outlook.com </a>
               </p>

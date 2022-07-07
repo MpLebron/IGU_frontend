@@ -19,7 +19,7 @@
         <li>Prof. Xin Li</li>
         <li>Dr. Xintao Liu</li>
         <li>Prof. Guonian Lü</li>
-        <li>Mr. Zaiyang Ma</li>
+        <li>Dr. Zaiyang Ma</li>
         <li>Dr. Erik Nixdorf</li>
         <li>Prof. Paul Torrens</li>
         <li>Prof. Rumiana Vatseva</li>

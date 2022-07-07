@@ -40,7 +40,7 @@
         <p>Details regarding requirements and documents for application will be announced soon on this website.</p>
       </div>
       <div style="margin-top:10px">
-        <a href="../assets/static/doc/IGU MGSC Award Nomination Letter-2022.docx">IGU MGSC Award Nomination Letter Template (for OAA and YSA)</a>
+        <a href="http://221.226.60.2:8082/data/a02d7d75-6a3c-4f87-8c04-e91ca8d5cf4c">IGU MGSC Award Nomination Letter Template (for OAA and YSA)</a>
       </div>
     </div>
   </div>
