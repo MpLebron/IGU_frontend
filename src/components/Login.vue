@@ -99,7 +99,7 @@ export default {
 
     var checkPassword = (rule, value, callback) => {
       if (!value) {
-        return callback(new Error('Please input your Email!'))
+        return callback(new Error('Please input your Password!'))
       } else if (!(/^.*?[\d]+.*$/.test(value) && /^.*?[a-z].*$/.test(value) && value.length > 7)) {
         return callback(new Error('At least 8 characters including a number and a lowercase letter'))
       } else {
